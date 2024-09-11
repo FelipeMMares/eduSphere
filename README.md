@@ -1,6 +1,6 @@
 # Edusphere1
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8.
+Projeto da matéria de desenvolvimento Web parte do frontend (ainda não integrado ao back e algumas telas estão faltando ainda)
 
 ## Development server
 
