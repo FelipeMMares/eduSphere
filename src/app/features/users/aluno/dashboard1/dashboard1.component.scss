@@ -1,0 +1,17 @@
+.txt-open{
+    background-color: white;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.txt-open h1{
+    font-size: 40px;
+    font-weight: 700;
+}

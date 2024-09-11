@@ -1,0 +1,53 @@
+
+header{
+    padding: 40px 4%;
+    background-color: #BAB7E1B2;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    padding: 0 1px;
+}
+
+header h1{
+    margin-right: 280px;
+    padding: 0 0px;
+    font-size: 28px;
+    font-weight: bold;
+    color: black;
+}
+
+header a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block; 
+    transition: .2s;   
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 6px;
+}
+
+header .btn-login button{
+    padding: 30px 50px;
+    margin: 0px 0px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #3B7DE9CC;
+    border: 0;
+    border-radius: 15px;
+    cursor: pointer;
+    color: #ffffff;
+}

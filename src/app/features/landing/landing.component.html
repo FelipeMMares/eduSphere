@@ -1,0 +1,110 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+<header>
+       <div class="interface">
+           <div class="logo">
+           <img src="./assets/images/image.png" alt="logo" width="100px" height="100px">
+       </div><!--logo-->
+           <div class="txt-titulo">
+               <h1>Escola ilumini</h1>
+           </div><!--txt-titulo-->
+       <nav class="menu-descktop">
+           <ul>
+               <li><a href="#topo">Home</a></li>
+               <li><a href="#sobre">Sobre nós</a></li>
+               <li><a href="#curso">Cursos</a></li>
+               <li><a href="#prof">Professores</a></li>
+               <li><a [routerLink]="['/contato']">Contato</a></li>
+           </ul>
+           </nav><!--menu-desktop-->
+           <div class="btn-login">
+            <a [routerLink]="['/login']">
+                   <button>Login</button>
+               </a>
+           </div><!--btn-login-->
+   </div><!--interface-->
+</header>
+
+<main>
+    <section class="about" id="topo">
+        <div class="topo-do-site">
+                <div class="txt-topo">
+                    <h1>Descubra o Caminho para um Futuro Brilhante com Nosso Sistema Educacional de Excelência.</h1>
+                    <p>Finalmente Alcance Foco e a Organização Educacional Com o Nosso Sistema de Gestão Escolar EduSphere</p>
+                </div><!--txt-topo-->
+                    <div class="btn-conheca">
+                        <a [routerLink]="['/contato']"><button>Conheça</button></a>
+                    </div><!--btn-conheca-->
+        </div><!--topo-do-site-->
+    </section><!--topo-->
+ 
+    <section class="sobre" id="sobre">
+        <div class="interface">
+            <div class="txt-sobre">
+                <h2>Ilumini</h2>
+                <p>Bem-vindo à nossa escola, um lugar onde o aprendizado é mais do que uma jornada; é uma experiência transformadora. Nossa escola é dedicada a proporcionar uma educação de qualidade que nutre mentes curiosas e prepara os alunos para enfrentar os desafios do futuro com confiança.</p>
+                <p>Nossa missão é inspirar e capacitar os alunos a alcançarem seu máximo potencial, fornecendo uma educação inclusiva e holística. Enxergamos um futuro onde cada aluno se torna um líder ético e contribuinte para a sociedade. Nossos valores fundamentais incluem excelência acadêmica, integridade, diversidade e colaboração.</p>
+            </div><!--txt-curso-->
+        </div><!--interface-->
+    </section><!--sobre-->
+ 
+    <section class="cursos" id="curso">
+        <div class="interface">
+            <div class="flex">
+                <div class="txt-curso">
+                    <h2>Cursos</h2>
+                </div><!--txt-curso-->
+            </div><!--flex-->
+                <div class="img-curso">
+                    <img src="./assets/images/curso1.png" alt="curso1" width="225px" height="300px">
+                    <img src="./assets/images/curso2.png" alt="curso2" width="225px" height="300px">
+                    <img src="./assets/images/curso3.png" alt="curso3" width="225px" height="300px">
+                </div><!--img-curso-->
+        </div><!--interface-->
+    </section><!--cursos-->
+ 
+    <section class="professores" id="prof">
+        <div class="interface">
+            <div class="flex">
+                <div class="txt-prof">
+                    <h2>Professores</h2>
+                </div><!--txt-prof-->
+            </div><!--flex-->
+            <div class="img-prof">
+                <img src="./assets/images/prof1.png" alt="prof1" width="225px" height="300px">
+                <img src="./assets/images/prof2.png" alt="prof2" width="225px" height="300px">
+                <img src="./assets/images/prof3.png" alt="prof3" width="225px" height="300px">
+            </div><!--img-prof-->
+        </div><!--interface-->
+    </section><!--professores-->
+ </main>
+ 
+ <footer>
+    <div class="interface">
+        <div class="flex">
+            <div class="txt-footer">
+            <h2>Endereço:</h2>
+            <p>Rua das Inovações, 1234 
+                Bairro Tecnópolis, São Paulo, SP
+                CEP 01234-567</p>
+            </div><!--txt-footer-->
+            <div class="txt-social">
+                 <h2>Acompanhe nossas redes sociais:</h2> 
+            </div><!--txt-social-->
+        </div><!--flex-->
+    </div><!--interface-->
+            <div class="line-border">
+                 <div class="lista">
+                 <ul>
+                     <li><a href="#">Segurança</a></li>
+                     <li><a href="#">Privacidade</a></li>
+                     <li><a href="#">Termos</a></li>
+                 </ul>  
+                 </div><!--lista-->
+                 <div class="btn-social">
+                     <a href="#"><button><i class="bi bi-instagram"></i></button></a>
+                     <a href="#"><button><i class="bi bi-facebook"></i></button></a>
+                     <a href="#"><button><i class="bi bi-youtube"></i></button></a>
+                 </div><!--btn-social-->
+            </div><!--line-border-->
+ </footer>

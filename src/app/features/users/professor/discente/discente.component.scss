@@ -1,0 +1,149 @@
+.fundo{
+    background-color: #D9D9D9;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dis-title {
+    background-color: #1B3B6F;
+    width: 837px;
+    height: 70px;
+    border: 3px solid black;
+}
+
+.dis-title h2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    padding: 20px 40px;
+    color: rgb(222, 208, 208);
+    font-size: 48px;
+}
+
+.fundo-utils{
+    background-color: #FFFFFF;
+    width: 837px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+}
+
+.barra-busca{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+ .btn-filtrar{
+    padding: 1px 1px;
+}
+
+ button{
+    width: 200px;
+    height: 55px;
+    font-size: 24px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+
+.list{
+    list-style: none;
+    padding: 0 20px;
+    background-color: white;
+    border: 1px solid rgba(188, 188, 188, 0.577);
+    border-radius: 20px;
+    position: absolute;
+}
+
+.list ul{
+    list-style: none;
+}
+
+.list li{
+    list-style: none;
+}
+
+.list a{
+    text-decoration: none;
+}
+.barra-busca input{
+    width: 381px;
+    height: 50px;
+}
+
+.barra-busca .btn-busca{
+    display: flex;
+}
+
+.btn-busca button{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 200px;
+    height: 55px;
+    font-size: 20px;
+    background-color: #3b7ee976;
+}
+
+.btn-busca button i{
+    margin: 0 20px;
+    margin-right: 30px;
+    font-size: 30px;
+}
+
+.alunos{
+    margin: 30px 10px;
+}
+
+table tr{
+    border: 1px solid black;
+    height: 60px;
+}
+
+table td{
+    border: 1px solid black;
+    width: 90px;
+    text-align: center;
+    align-items: center;
+}
+
+table span{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+table td.action{
+    background-color: #A7A6A680;
+}
+
+table td button{
+    width: 60px;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1px;
+    margin-bottom: 30px;
+    margin-top: 2px;
+    font-size: 16px;
+    background-color: #0AF4E6A1;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}

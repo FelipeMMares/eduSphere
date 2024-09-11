@@ -1,0 +1,200 @@
+
+
+/* estilo do contato*/
+section .contato{
+    padding: 40px 4%;
+    margin: 40px 40px;
+}
+
+.contato .interface{
+    padding: 40px 40xp;
+    margin-bottom: none;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #A7A6A6;
+}
+
+.contato .interface-txt{
+    margin: 40px 40px;
+    
+    text-align: justify;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contato .interface-txt img{
+    margin: 0 30px;
+}
+
+.contato .interface-txt h2{
+    font-size: 32px;
+    margin: 10px 5px;
+    margin-right: 100px;
+}
+
+.contato .interface-txt h3{
+    font-size: 32px;
+    margin: 10px 2px;
+}
+
+.contato .interface-mail{
+    display: flex;
+    justify-content: space-between;
+    background-color: #D9D9D9CC;
+    padding: 40px 40px;
+    margin-top: none;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.contato .txt-mail{
+    text-align: left;
+    margin: 10px 20px;
+}
+
+.contato .txt-mail h2{
+    font-size: 40px;
+    padding: 60px 4%;
+    margin: 20xp 4%;
+}
+
+.contato .txt-mail p{
+    font-size: 20px;
+    padding: 20px 4%;
+    text-align: justify;
+}
+
+.contato .campo{
+    text-align: center;
+    margin: 15px 80px;
+}
+
+.contato form{
+    width: 600px;
+    margin: 10px 70px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.contato form input, form textarea{
+    width: 100%;
+    background-color: white;
+    border: none;
+    outline: 0;
+    padding: 20px 50px;
+    color: black;
+    font-size: 20px;
+}
+
+form input::placeholder{
+    color: black;
+    margin: 5px 5px;
+    text-align: justify;
+}
+
+form textarea{
+    resize: none;
+    height: 140px;
+}
+
+form textarea::placeholder{
+    color: black;
+}
+
+form .btn-enviar{
+    margin-top: 20px;
+    text-align: center;
+}
+
+form .btn-enviar input{
+    width: 144px;
+    height: 39px;
+    padding: 1px 20px;
+    background-color: #3B7DE9;
+    cursor: pointer;
+    color: white;
+    border: black 1px;
+    border-radius: 90px;
+    justify-content: center;
+}
+
+form .btn-enviar input::-ms-value{
+    text-align: center;
+}
+
+/* estilo do footer */
+
+footer{
+    padding: 20px 10px;
+    background-color: #BAB7E1B2;
+    border: 10px black;
+}
+
+footer .flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer ul li{
+    display: inline-block;
+    padding: 30px 5px;
+    margin: 8px 0;
+}
+
+footer ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+footer .txt-footer{
+    align-items: center;
+    text-align: center;
+    margin-left: 240px;
+    margin-right: 70px;
+    padding: 0 100px;
+}
+
+footer .txt-social{
+    margin-right: 10px;
+    margin-left: 180px;
+}
+.txt-footer h2{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.txt-footer p{
+    font-size: 20px;
+}
+
+footer .txt-social{
+    font-size: 20px;
+}
+
+footer .line-border{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .btn-social button{
+    height: 50px;
+    padding: 0 5px;
+    margin: 5px 20px;
+    font-size: 30px;
+    border: none;
+    background-color: #c2c0eac2;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}

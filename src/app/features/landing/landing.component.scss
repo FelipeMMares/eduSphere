@@ -1,0 +1,275 @@
+header{
+    padding: 40px 4%;
+    background-color: #BAB7E1B2;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    padding: 0 1px;
+}
+
+header h1{
+    margin-right: 280px;
+    padding: 0 0px;
+    font-size: 28px;
+    font-weight: bold;
+    color: black;
+}
+
+header a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block; 
+    transition: .2s;   
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 6px;
+}
+
+header .btn-login button{
+    padding: 30px 50px;
+    margin: 0px 0px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #3B7DE9CC;
+    border: 0;
+    border-radius: 15px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+section .about{
+    padding: 80px 40px;
+    margin: 100px 100px;
+    box-sizing: border-box;
+}
+
+.about .topo-do-site{
+    padding: 60px;
+    margin: 60px 50px;
+    background-image: url('/assets/images/background.png');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section .topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+}
+
+.about .txt-topo h1{
+    padding: 40px 4%;
+    font-size: 48px;
+    margin: 30px 60px;
+    text-align: justify;
+    text-shadow: 0 5px 10px rgb(49, 48, 48);
+    line-height: 50px;
+}
+
+.about .txt-topo p{
+    padding: 10px 20px;
+    margin: 40px 406px;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
+
+.about .btn-conheca button{
+    padding: 10px 60px;
+    margin: 30px 390px;
+    font-size: 40px;
+    background-color: #3B7DE9CC;
+    border: 0;
+    border-radius: 90px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+/* estilo do sobre */
+
+section .sobre{
+    padding: 90px 4%;
+    gap: 40px;
+}
+
+.sobre .interface{
+    padding: 60px;
+    margin: 60px 50px;
+    background-image: url('/assets/images/background2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sobre .txt-sobre h2{
+    padding: 40px 4%;
+    margin: 30px 40px;
+    text-align: justify;
+    font-size: 48px;
+    font-weight: bold;
+    text-shadow: 0 10px 10px rgb(49, 48, 48);
+}
+
+.sobre .txt-sobre p{
+    padding: 30px 4%;
+    margin: 40px 40px;
+    font-size: 24px;
+    text-align: justify;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+/* estilo dos cursos */
+
+section .cursos{
+    padding: 90px 4%;
+    margin: 90px 90px;
+    gap: 90px;
+}
+
+.cursos .interface{
+    padding: 60px;
+    margin: 60px 70px;
+    background-image: url('/assets/images/background3.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cursos .txt-curso h2{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 4%;
+    margin: 50px 500px;
+    font-size: 48px;
+    font-weight: bold;
+    text-shadow: 0 5px 10px rgb(49, 48, 48);
+}
+
+.cursos .img-curso{
+    margin: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 30px;
+}
+
+/* estilo do professores */
+
+section .professores{
+    padding: 90px 4%;
+    margin: 90px 90px;
+    gap: 90px;
+}
+
+.professores .interface{
+    padding: 60px;
+    margin: 60px 70px;
+    background-image: url('/assets/images/background3.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.professores .txt-prof h2{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 4%;
+    margin: 40px 450px;
+    font-size: 48px;
+    font-weight: bold;
+    text-shadow: 0 5px 10px rgb(49, 48, 48);
+}
+
+.professores .img-prof{
+    margin: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 30px;
+}
+
+/* estilo do footer */
+
+footer{
+    padding: 20px 10px;
+    background-color: #BAB7E1B2;
+    border: 10px black;
+}
+
+footer .flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer ul li{
+    display: inline-block;
+    padding: 30px 5px;
+    margin: 8px 0;
+}
+
+footer ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+footer .txt-footer{
+    align-items: center;
+    text-align: center;
+    margin-left: 240px;
+    margin-right: 70px;
+    padding: 0 100px;
+}
+
+footer .txt-social{
+    margin-right: 10px;
+    margin-left: 180px;
+}
+.txt-footer h2{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.txt-footer p{
+    font-size: 20px;
+}
+
+footer .txt-social{
+    font-size: 20px;
+}
+
+footer .line-border{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .btn-social button{
+    height: 50px;
+    padding: 0 5px;
+    margin: 5px 20px;
+    font-size: 30px;
+    border: none;
+    background-color: #c2c0eac2;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}

@@ -1,0 +1,48 @@
+<app-aluno-bar></app-aluno-bar>
+<main>
+    <body>
+        <div class="fundo">
+            <div class="fundo-titulo">
+                <h2>Perfil</h2>
+            </div><!--fundo-titulo-->
+            <div class="tabela">
+                <div class="formulario">
+                    <form action="">
+                        <div class="div">
+                            <label for="name">Nome:</label>
+                            <input class="form-control" type="text" disabled>
+                        </div><!--div-->
+                        <div class="div">
+                            <label for="matricula">Matricula:</label>
+                            <input class="form-control" type="text" disabled>
+                        </div><!--div-->
+                        <div class="div">
+                            <label for="email">Email:</label>
+                            <input class="form-control" type="text" disabled>
+                        </div><!--div-->
+                        <div class="div">
+                            <label for="username">Username:</label>
+                            <input class="form-control" type="text" disabled>
+                        </div><!--div-->
+                                                <div class="div">
+                            <label for="cursos">Cursos:</label>
+                            <input class="form-control" type="text" disabled>
+                        </div><!--div-->
+                        <div class="div">
+                            <label for="passoword">Senha:</label>
+                            <input class="form-control" id="disabledInput" type="text" [attr.disabled]="campoDesabilitado ? true : null">
+                        </div><!--div-->
+                    </form>
+                </div><!--formulario-->
+                <div class="options">
+                    <div class="btn-edit">
+                        <button (click)="toggleCampo()">{{campoDesabilitado ? 'Editar':'Cancelar'}}</button>
+                    </div><!--btn-edit-->
+                    <div class="btn-salvar">
+                        <button>salvar</button>
+                    </div><!--btn-salvar-->
+                </div><!--options-->
+            </div><!--tabela-->
+        </div><!--fundo-->
+    </body>
+</main>

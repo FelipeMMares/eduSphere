@@ -1,0 +1,51 @@
+<app-aluno-bar></app-aluno-bar>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<main>
+    <body>
+        <div class="fundo">
+            <div class="bol-title">
+                <h2>Boletim</h2>
+            </div><!--bol-title-->
+            <div class="fundo-utils">
+                <div class="barra-busca">
+                    <div class="btn-filtro">
+                        <button (click)="toggleLista()">
+                            Filtrar
+                            <i class="bi bi-caret-down-fill"></i>
+                        </button>
+                    </div><!--btn-filtro-->
+                    <div class="lista">
+                        <div class="list" [innerHTML]="listaHtml"></div>                        
+                    </div><!--lista-->
+                    <input type="text">
+                        <div class="btn-busca">
+                            <button>
+                                <i class="bi bi-search"></i>
+                                Buscar
+                            </button>
+                        </div><!--btn-busca-->
+                </div><!--barra-busca-->
+                <div class="fundo-tab">
+                    <table border="1">
+                        <tr>
+                            <td class="periodo">Periodo</td>
+                            <td class="curso">Curso</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div><!--fundo-tab-->                
+            </div><!--fundo-utils-->
+        </div><!--fundo-->
+    </body>
+</main>

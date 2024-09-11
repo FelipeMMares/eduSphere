@@ -1,0 +1,139 @@
+.fundo{
+    background-color: #D9D9D9;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fundo-utils{
+    background-color: #FFFFFF;
+    width: 990px;
+    height: 620px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+}
+
+.btn-retorno{
+    height: 51px;
+    width: 800px;
+    margin-bottom: 70px;
+}
+
+.btn-retorno button{
+    height: 50px;
+    width: 120px;
+    background-color: #A7A6A699;
+    font-size: 24px;
+    font-weight: 600;
+    border-radius: 15px;
+    border: 2px solid rgba(0, 0, 0, 0.378);
+    cursor: pointer;
+}
+
+.agenda{
+    display: flex;
+    justify-content: space-between;
+}
+
+.calendar {
+    margin: 0 20px;
+    border: 1px solid #8e8e8e;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+    width: 350px;
+}
+
+.this-year{
+    background-color: #1B3B6F;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.days-of-week {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    background-color: #f8f9fa;
+    text-align: center;
+    font-weight: bold;
+}
+
+.days-of-week div {
+    padding: 10px;
+    border-right: 1px solid #8e8e8e;
+    border-bottom: 1px solid #8e8e8e;
+}
+
+.days-of-week div:nth-child(7n) {
+    border-right: none;
+}
+
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.calendar-grid div {
+    padding: 15px;
+    text-align: center;
+    border-right: 1px solid #8e8e8e;
+    border-bottom: 1px solid #8e8e8e;
+}
+
+.calendar-grid div:nth-child(7n) {
+    border-right: none;
+}
+
+.calendar-grid div:nth-child(n+29) {
+    color: #888; /* Days of the next or previous month */
+}
+
+.title{
+    background-color: #1B3B6F;
+    height: 70px;
+    width: 330px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;border-radius: 8px;
+}
+
+.title h2 {
+    color: white;
+    font-size: 24px;
+    justify-content: center;
+}
+
+table{
+    border-radius: 20px;
+}
+
+table tr {
+    height: 60px;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+
+table td {
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+
+table td.data{
+    width: 80px;
+}
+
+table td.prog{
+    width: 240px;
+}

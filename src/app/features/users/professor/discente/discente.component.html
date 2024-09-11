@@ -1,0 +1,75 @@
+<app-prof-bar></app-prof-bar>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<main>
+    <body>
+        <div class="fundo">
+            <div class="dis-title">
+                <h2>Alunos</h2>
+            </div><!--disc-title-->
+            <div class="fundo-utils">
+                <div class="barra-busca">
+                    <div class="btn-filtro">
+                        <button (click)="toggleLista()">
+                            Filtrar
+                            <i class="bi bi-caret-down-fill"></i>
+                        </button>
+                    </div><!--btn-filtro-->
+                    <div class="lista">
+                        <div class="list" [innerHTML]="listaHtml"></div>                        
+                    </div><!--lista-->
+                    <input type="text">
+                        <div class="btn-busca">
+                            <button>
+                                <i class="bi bi-search"></i>
+                                Buscar
+                            </button>
+                        </div><!--btn-busca-->
+                </div><!--barra-busca-->
+                <div class="alunos">
+                    <table>
+                        <tr class="tile">
+                            <td><span>Nome</span></td>
+                            <td><span>Matricula</span></td>
+                            <td><span>Curso</span></td>
+                            <td><span>Periodo</span></td>
+                            <td><span>Disciplina</span></td>
+                            <td><span>Ações</span></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td class="action"><button><i class="bi bi-eye"></i> ver</button></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td class="action"><button><i class="bi bi-eye"></i> ver</button></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td class="action"><button><i class="bi bi-eye"></i> ver</button></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td class="action"><button><i class="bi bi-eye"></i> ver</button></td>
+                        </tr>
+                    </table>
+                </div><!--alunos-->
+            </div><!--fundo-utils-->
+        </div><!--fundo-->
+    </body>
+</main>

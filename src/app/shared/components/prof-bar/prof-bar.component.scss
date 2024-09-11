@@ -1,0 +1,103 @@
+.menu-aluno{
+    background-color: #F5F5DC;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 30%;
+    border: 1px solid black;
+}
+
+.menu-aluno .card-aluno{
+    background-color: #1B3B6F;
+    border: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: 151px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-aluno .card-aluno .icone-aluno{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-aluno .card-aluno .icone-aluno a{
+    text-decoration: none;
+}
+
+.icone-aluno button{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    font-size: 24px;
+    height: 58px;
+    width: 250px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    cursor: pointer;
+}
+
+.icone-aluno button:hover{
+    background-color: #D9D9D999;
+}
+.menu-aluno .card-aluno .icone-aluno img{
+    padding: 2px 10px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+.menu-aluno nav ul{
+    text-align: center;
+    padding: 25px;
+}
+
+.menu-aluno nav ul li{
+    list-style: none;
+    display: flex;
+}
+
+.menu-aluno nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 29px;
+    font-weight: 600;
+    padding: 5px;
+    margin: 0 10px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 389px;
+    height: 110px;
+}
+
+.menu-aluno nav ul li a:hover{
+    background-color: #A7A6A699;
+}
+
+.menu-aluno nav ul li a img{
+    margin: 0 20px;
+}
+
+.btn-contain{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 60px;
+}
+
+.btn-contain button{
+    border: none;
+    cursor: pointer;
+}
